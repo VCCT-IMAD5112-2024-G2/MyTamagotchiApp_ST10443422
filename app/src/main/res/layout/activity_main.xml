@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/panda_2"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="290dp"
+        android:layout_height="165dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginBottom="535dp"
+        android:fontFamily="@font/amarante"
+        android:gravity="center_horizontal"
+        android:text="Welcome to Panda your Tamagotchi App"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/getStarted"
+        android:layout_width="228dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="91dp"
+        android:layout_marginTop="568dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginBottom="101dp"
+        android:backgroundTint="#CF0808"
+        android:fontFamily="@font/amarante"
+        android:text="Get Started"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
